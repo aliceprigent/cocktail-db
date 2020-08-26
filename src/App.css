@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.row {
+  display: flex;
+  flex-direction: row
+
+}
+
+.column {
+  display: flex;
+  flex-direction: column
+
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.start {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Home page */
+
+/* Cocktail Card */
+
+.cocktail-card {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+margin: 10px;
+
+}
+
+
+.img-cocktail {
+  width: 100px;
+  border-radius: 15px;
+}
